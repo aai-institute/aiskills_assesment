@@ -467,7 +467,7 @@ def create_survey_form(skills_df, selected_purposes=None, selected_domains=None)
     
     st.header("AI Skills Self-Assessment Survey")
     st.write(f"Rating {len(skills_df)} skills based on your current filters:")
-    st.write("**0** = Unknown| **1** = Know about | **2** = Use it | **3** = Adapt it | **4** = Live i")
+    st.write("**0** = Unknown| **1** = Know about | **2** = Use it | **3** = Adapt it | **4** = Live it")
     
     # Initialize session state
     if 'skill_levels' not in st.session_state:
