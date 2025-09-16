@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_skills_dataframe():
-    skills_df = pd.read_csv('data/skills_with_coordinates.csv')
+    skills_df = pd.read_csv('data/skills_with_coordinates.csv', sep = ';')
     skills_df['level'] = 0  # Initialize all to level 0
     return skills_df
 
@@ -277,7 +277,7 @@ def create_domain_skills_plot(skills_df):
     # Define 5x2 layout: 5 domains on top row, remaining on bottom
     domain_positions = {
         # Row 1: First 5 domains
-        'AI Business Strategy': (0, 0),
+        'AI Strategy': (0, 0),
         'AI Ethics': (0, 1), 
         'AI Regulation': (0, 2),
         'GenAI Proficiency': (0, 3),
@@ -401,6 +401,22 @@ def create_domain_skills_plot(skills_df):
     )
     
     return fig
+
+def download_plot_as_png(fig, filename, width=1417, height=1063):
+    """Create a download button for plotly figure as PNG optimized for 10x15cm print"""
+    try:
+        # Convert plotly figure to PNG bytes
+        img_bytes = fig.to_image(format="png", width=width, height=height, scale=2)
+        
+        st.download_button(
+            label=f"📥 Download {filename}",
+            data=img_bytes,
+            file_name=f"{filename}.png",
+            mime="image/png"
+        )
+    except Exception as e:
+        st.error(f"Error creating download: {e}")
+        st.info("💡 Install kaleido for plot downloads: `pip install kaleido`")
 
 def create_skills_filter():
     """Create filtering options for skills"""
@@ -788,9 +804,13 @@ def main():
         display_df = update_skills_dataframe(skills_df)
         
         try:
+
             # Purpose-based skills plot
-            fig = create_ai_skills_plot(display_df, name=user_name, add_logo=False)
+            fig = create_ai_skills_plot(display_df, name=user_name, add_logo=True)
             st.plotly_chart(fig, use_container_width=True)
+            
+            # Add download button for purpose plot
+            download_plot_as_png(fig, f"{user_name.replace(' ', '_')}_AI_Skills_Purpose_Plot")
             
             # Domain-based skills plot
             st.subheader("📊 Skills by Domain")
