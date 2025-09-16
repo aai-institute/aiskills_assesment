@@ -1,0 +1,128 @@
+skill_component;purpose;domains;level;x;y
+Assess AI talent acquisition and development strategies for organizational readiness;INTEGRATE AI;AI Strategy;4;3.495297805642633;2.6504702194357366
+Identify and develop AI-enabled business model innovations that create competitive advantage and new value propositions;INTEGRATE AI;AI Strategy;4;3.746081504702194;2.6504702194357366
+Design AI strategies that enhance customer experience personalization and long-term customer engagement;INTEGRATE AI;AI Strategy;4;3.6206896551724137;2.4335423197492165
+Continously re- and upskill existing workforce based on corporate AI readiness and implementation;INTEGRATE AI;AI Strategy;4;3.3699059561128526;2.4335423197492165
+Conduct and act upon comprehensive AI maturity assessments across enabling factors;INTEGRATE AI;AI Strategy;4;3.244514106583072;2.6504702194357366
+Data-driven development of AI scaling strategies for enterprise-wide transformation;INTEGRATE AI;AI Strategy;4;3.3699059561128526;2.867398119122257
+Develop AI performance measurement systems and success metrics frameworks;INTEGRATE AI;AI Strategy;4;3.6206896551724137;2.867398119122257
+Foster AI organizational change management and culture transformation initiatives;FRAME AI;AI Strategy;4;8.74921630094044;2.073667711598746
+Align AI initiatives with existing data IT and digital transformation strategies;INTEGRATE AI;AI Strategy;4;3.9968652037617556;2.6504702194357366
+Develop and manage comprehensive AI strategy aligned with corporate objectives and IT architectures;INTEGRATE AI;AI Strategy;4;3.929153605015674;2.399686520376176
+Develop strategic AI vendor ecosystems and lead collaborative innovation partnerships;INTEGRATE AI;AI Strategy;4;3.746081504702194;2.216614420062696
+Evaluate the financial and strategic value and feasibility of AI solutions and initiatives;INTEGRATE AI;AI Strategy;4;3.495297805642633;2.1489028213166144
+Manage cross-functional AI investment portfolios to optimize strategic value across regions and business units;INTEGRATE AI;AI Strategy;4;3.244514106583072;2.216614420062696
+Design comprehensive measurable AI implementation roadmaps and strategic milestones;INTEGRATE AI;AI Strategy;4;3.0614420062695924;2.399686520376176
+Drive implementation of AI-based product and process innovation for rewarding high-impact use cases;INTEGRATE AI;AI Strategy;4;2.993730407523511;2.6504702194357366
+Design AI literacy and education programs for organizational transformation;FRAME AI;AI Strategy;4;9.0;2.073667711598746
+Monitor competitive AI landscapes and relevant emerging technology trends;FRAME AI;AI Strategy;4;8.74921630094044;1.822884012539185
+Foster AI organizational change management and culture transformation initiatives;INTEGRATE AI;AI Strategy;4;3.0614420062695924;2.901253918495298
+Assess AI risks and develop comprehensive mitigation strategies for organizational adoption;INTEGRATE AI;AI Strategy;4;3.244514106583072;3.0843260188087775
+Monitor competitive AI landscapes and relevant emerging technology trends;INTEGRATE AI;AI Strategy;4;3.495297805642633;3.152037617554859
+Implement AI governance and oversight structures with policies for responsible and ethical AI deployment and development;INTEGRATE AI;AI Strategy, AI Ethics;4;3.746081504702194;3.0843260188087775
+Detect and mitigate unfair algorithmic bias;BUILD AI;AI Ethics;4;6.316614420062696;3.0485893416927903
+Operationalize roles and processes for ethical AI oversight;FRAME AI;AI Ethics;4;8.498432601880879;2.073667711598746
+Design and implement AI Ethics frameworks for development and deployment;FRAME AI;AI Ethics;4;8.74921630094044;2.324451410658307
+Design and implement AI Ethics frameworks for development and deployment;INTEGRATE AI;AI Ethics;4;3.929153605015674;2.901253918495298
+Establish clear accountability for human oversight of deployed AI systems;USE AI;AI Ethics;4;1.6269592476489028;2.1263322884012537
+Design and implement AI Ethics frameworks for development and deployment;BUILD AI;AI Ethics;4;6.5423197492163006;3.0485893416927903
+Detect and correct AI incidents that occurred during deployment;BUILD AI;AI Ethics;4;6.429467084639498;2.8529780564263323
+Preventively monitor AI systems for unintended consequences with negative human impact;BUILD AI;AI Ethics;4;6.2037617554858935;2.8529780564263323
+Integrate the ethical framework into the AI development lifecycle;BUILD AI;AI Ethics;4;6.090909090909091;3.0485893416927903
+Conduct ongoing ethical impact assessments of AI use cases;INTEGRATE AI;AI Ethics, AI Strategy;4;4.210031347962382;2.6504702194357366
+Evaluate and implement AI privacy and data protection requirements;USE AI;AI Ethics, AI Strategy, Data Competence, AI Regulation;4;1.555485893416928;1.933228840125392
+Evaluate and implement AI privacy and data protection requirements;INTEGRATE AI;AI Ethics, AI Strategy, Data Competence, AI Regulation;4;4.197241379310345;2.384514106583072
+Define a regulatory strategies to enable access to target markets;INTEGRATE AI;AI Regulation;4;4.027335423197492;2.118432601880878
+Conduct AI system compliance audits;INTEGRATE AI;AI Regulation;4;3.761253918495298;1.9485266457680255
+Design organizational AI governance policies ethics frameworks and operational protocols;INTEGRATE AI;AI Regulation;4;3.495297805642633;1.8981191222570533
+Define methodologies and working instructions in accordance with the defined governance structures to operationalize the governance policies;INTEGRATE AI;AI Regulation;4;3.2293416927899683;1.9485266457680255
+Assess AI model transparency interpretability and explainability for regulatory compliance;INTEGRATE AI;AI Regulation;4;2.963260188087774;2.118432601880878
+Select integrate and evaluate suitable GPAI models;INTEGRATE AI;AI Regulation;4;2.793354231974922;2.384514106583072
+Implement AI risk management systems throughout the entire product lifecycle;INTEGRATE AI;AI Regulation;4;2.7429467084639496;2.6504702194357366
+Monitor emerging AI regulatory developments legislative trends and policy updates;INTEGRATE AI;AI Regulation;4;2.793354231974922;2.916426332288401
+Compile technical documentation as evidence for compliance;INTEGRATE AI;AI Regulation;4;2.963260188087774;3.1825078369905957
+Execute non-technical requirements from regulation / Implement specific elements of regulation and policy standards within AI systems;INTEGRATE AI;AI Regulation, AI Ethics;4;3.2293416927899683;3.352413793103448
+Perform a human-rights impact assessment for given AI systems;INTEGRATE AI;AI Regulation, AI Ethics;4;3.495297805642633;3.4028213166144203
+Demonstrate compliance to high-risk requirements through harmonized standards;INTEGRATE AI;AI Regulation, AI Ethics;4;3.761253918495298;3.352413793103448
+Identify applicable AI governance and legal frameworks and obligations across jurisdictions;INTEGRATE AI;AI Regulation, AI Ethics;4;4.059561128526646;3.1825078369905957
+Execute technical requirements from regulation;INTEGRATE AI;AI Regulation, MLOps/Infrastructure;4;4.197492163009404;2.913793103448276
+Interpret statistical and analytical outputs from AI systems;USE AI;Data Competence;4;1.4100313479623825;1.8278996865203765
+Assess data quality and fitness for AI applications;USE AI;Data Competence;4;1.2169278996865203;1.8278996865203765
+Design and implement automated data pipelines for processing and transformation workflows;BUILD AI;Data Competence;4;6.2037617554858935;3.2441956112852663
+Clean and transform raw data into structured formats for analysis and modeling;BUILD AI;Data Competence;4;6.429467084639498;3.2441956112852663
+Perform statistical analysis and hypothesis testing to validate data-driven conclusions;BUILD AI;Data Competence;4;6.768025078369906;3.0485893416927903
+Create data visualizations that communicate complex findings effectively to stakeholders;BUILD AI;Data Competence;4;6.707836990595611;2.822884012539185
+Perform exploratory data analysis to uncover patterns trends and actionable insights;BUILD AI;Data Competence;4;6.5423197492163006;2.6573667711598743
+Process and extract structured information from multimodal unstructured data sources;BUILD AI;Data Competence;4;6.316614420062696;2.5971786833855797
+Design and deploy interactive dashboards and automated reporting solutions for business intelligence;BUILD AI;Data Competence;4;6.090909090909091;2.6573667711598743
+Design and implement a data (processing) architectures on an enterprise or use case level;BUILD AI;Data Competence;4;5.92539184952978;2.822884012539185
+Document and maintain datasets and metadata within data catalog systems;BUILD AI;Data Competence;4;5.8652037617554855;3.0485893416927903
+Assess data quality and fitness for AI applications;BUILD AI;Data Competence;4;5.92539184952978;3.274294670846395
+Evaluate data source credibility and relevance for AI use cases;USE AI;Data Competence;4;1.071473354231975;1.933228840125392
+Evaluate data source credibility and relevance for AI use cases;BUILD AI;Data Competence;4;6.090909090909091;3.439814420062696
+Implement data privacy and protection measures to ensure compliance with regulations and ethical standards;BUILD AI;Data Competence, AI Ethics, AI Regulation, Software Design;4;6.316614420062696;3.5
+Establish data governance frameworks including documentation ownership access controls and lifecycle management;BUILD AI;Data Competence, MLOps/Infrastructure;4;6.5423197492163006;3.439814420062696
+Design and implement data quality validation frameworks and monitoring systems;BUILD AI;Data Competence, MLOps/Infrastructure;4;6.707836990595611;3.274294670846395
+Design and implement data ingestion strategies across diverse source systems;BUILD AI;Data Competence, MLOps/Infrastructure, Programming;4;6.993730407523511;3.0485893416927903
+Design database schemas and data modeling strategies;BUILD AI;Data Competence, Software Design;4;6.952351097178683;2.816614420062696
+Design human-in-the-loop workflows for AI applications;BUILD AI;GenAI Proficiency;4;6.835736677115987;2.6134796238244515
+Design human-in-the-loop workflows for AI applications;USE AI;GenAI Proficiency;4;1.0;2.1263322884012537
+Design and optimize prompts for AI interactions;USE AI;GenAI Proficiency;4;1.071473354231975;2.319435736677116
+Evaluate generative model outputs for coherence safety relevance and decision making;USE AI;GenAI Proficiency;4;1.2169278996865203;2.4247648902821317
+Select and evaluate appropriate generative AI models for specific use cases and applications;BUILD AI;GenAI Proficiency;4;6.655172413793103;2.4617554858934168
+Engineer prompt workflows and context management systems;BUILD AI;GenAI Proficiency;4;6.434482758620689;2.3815047021943574
+Build retrieval-augmented generation (RAG) systems;BUILD AI;GenAI Proficiency;4;6.198746081504702;2.3815047021943574
+Fine-tune and align language models;BUILD AI;GenAI Proficiency;4;5.978056426332288;2.4617554858934168
+Create multi-modal and media AI system;BUILD AI;GenAI Proficiency;4;5.797492163009404;2.6134796238244515
+Implement safety and security guardrails for generative AI systems;BUILD AI;GenAI Proficiency;4;5.680877742946708;2.816614420062696
+Design conversational AI systems and chatbot frameworks;BUILD AI;GenAI Proficiency;4;5.639498432601881;3.0485893416927903
+Select and evaluate appropriate generative AI models for specific use cases and applications;USE AI;GenAI Proficiency;4;1.4100313479623825;2.4247648902821317
+Build knowledge graph integration with language models;BUILD AI;GenAI Proficiency;4;5.680877742946708;3.280564263322884
+Develop AI agent architectures and autonomous workflows;BUILD AI;GenAI Proficiency;4;5.797492163009404;3.483701567398119
+Apply AI tools effectively within professional domain workflows;USE AI;GenAI Proficiency, AI Strategy;4;1.555485893416928;2.319435736677116
+Implement governance for generative AI workflows;BUILD AI;GenAI Proficiency, AI Ethics;4;5.978056426332288;3.6354206896551724
+Optimize generative AI serving and cost management;BUILD AI;GenAI Proficiency, AI Regulation, MLOps/Infrastructure;4;6.198746081504702;3.7156764890282132
+Generate and validate synthetic training data;BUILD AI;GenAI Proficiency, Data Competence;4;6.434482758620689;3.7156764890282132
+Build evaluation frameworks for generative AI systems;BUILD AI;GenAI Proficiency, MLOps/Infrastructure;4;6.655172413793103;3.6354206896551724
+Implement auto-scaling infrastructure for variable ML demands;BUILD AI;MLOps/Infrastructure;4;6.835736677115987;3.483701567398119
+Build infrastructure cost monitoring and optimization frameworks;BUILD AI;MLOps/Infrastructure;4;6.952351097178683;3.280564263322884
+Design orchestration strategies for ML workflows and pipelines;BUILD AI;MLOps/Infrastructure;4;7.219435736677116;3.0485893416927903
+Implement performance monitoring for ML infrastructure;BUILD AI;MLOps/Infrastructure;4;7.1880877742946705;2.8153605015673984
+Build model serving infrastructure with APIs batch or real-time inference;BUILD AI;MLOps/Infrastructure;4;7.099059561128526;2.5971786833855797
+Design scalable cloud infrastructure for ML workloads;BUILD AI;MLOps/Infrastructure;4;6.954858934169279;2.410344827586207
+Continuously improve ML systems through automated retraining pipelines;BUILD AI;MLOps/Infrastructure;4;6.768025078369906;2.266144200626959
+Design GPU cluster management systems;BUILD AI;MLOps/Infrastructure;4;6.549843260188088;2.177115987460815
+Design robust and fault-tolerant ML infrastructure with disaster recovery capabilities;BUILD AI;MLOps/Infrastructure;4;6.316614420062696;2.14576802507837
+Implement deployment strategies for model validation;BUILD AI;MLOps/Infrastructure;4;6.083385579937303;2.177115987460815
+Utilize big data platforms to process analyze and manage large-scale datasets for AI applications;BUILD AI;MLOps/Infrastructure;4;5.8652037617554855;2.266144200626959
+Integrate model registries and experiment tracking systems;BUILD AI;MLOps/Infrastructure;4;5.678369905956113;2.410344827586207
+Manage feature stores and feature engineering for consistent model training and inference;BUILD AI;MLOps/Infrastructure;4;5.534169278996865;2.5971786833855797
+Implement data versioning and management systems for ML pipeline reproducibility;BUILD AI;MLOps/Infrastructure;4;5.445141065830721;2.8153605015673984
+Implement deep learning architectures;BUILD AI;Machine Learning;4;5.413793103448276;3.0485893416927903
+Develop and implement machine learning and deep learning models following the supervised unsupervised self-supervised and reinforcement learning paradigms;BUILD AI;Machine Learning;4;5.445141065830721;3.2818131661442007
+Apply feature engineering representation learning and transfer learning techniques to improve model performance;BUILD AI;Machine Learning;4;5.534169278996865;3.5
+Evaluate and validate models using robust metrics to ensure accuracy reliability and generalization;BUILD AI;Machine Learning;4;5.678369905956113;3.686838871473354
+Enhance model performance through hyperparameter tuning architectural choices and regularization strategies;BUILD AI;Machine Learning;4;5.8652037617554855;3.831039498432602
+Train deep learning models;BUILD AI;Machine Learning;4;6.083385579937303;3.9200626959247646
+Use transfer learning and pre-trained models to accelerate development;BUILD AI;Machine Learning;4;6.316614420062696;3.95141065830721
+Build reinforcement learning algorithms and environments;BUILD AI;Machine Learning;4;6.549843260188088;3.9200626959247646
+Translate business problems into well-defined ML tasks;BUILD AI;Machine Learning;4;6.768025078369906;3.831039498432602
+Employ model interpretability and explainability techniques to increase transparency of prediction behavior;BUILD AI;Machine Learning, AI Regulation;4;6.954858934169279;3.686838871473354
+Deploy and monitor models in production to ensure reliability detect data drift and enable continuous improvement;BUILD AI;Machine Learning, MLOps/Infrastructure;4;7.099059561128526;3.5
+Refactor legacy codebases to improve maintainability and performance standards;BUILD AI;Programming;4;7.1880877742946705;3.2818131661442007
+Debug complex logic and runtime errors systematically using structured approaches;BUILD AI;Programming;4;7.445141065830721;3.0485893416927903
+Use and extend automated testing and evaluation frameworks to ensure code quality and reliability;BUILD AI;Programming;4;7.358620689655172;2.617241379310345
+Use version control systems effectively including branching and collaborative workflows;BUILD AI;Programming;4;7.1141065830721;2.251097178683386
+Perform thorough code reviews and provide constructive feedback for quality maintenance;BUILD AI;Programming;4;6.747962382445141;2.0065830721003137
+Create comprehensive code and system architecture documentation for clarity usability and knowledge transfer;BUILD AI;Programming;4;6.316614420062696;1.920062695924765
+Apply secure coding principles to prevent vulnerabilities and ensure application security;BUILD AI;Programming;4;5.885266457680251;2.0065830721003137
+Write clean readable maintainable following best practices;BUILD AI;Programming;4;5.519122257053291;2.251097178683386
+Develop CI/CD pipelines and automated deployment workflows for software delivery;BUILD AI;Programming, MLOps/Infrastructure;4;5.274608150470219;2.617241379310345
+Implement logging systems for monitoring alerting and operational observability;BUILD AI;Programming, MLOps/Infrastructure;4;5.1880877742946705;3.0485893416927903
+Implement containerized applications using Docker and Kubernetes for deployment;BUILD AI;Programming, MLOps/Infrastructure, Software Design;4;5.274608150470219;3.4799423197492163
+Optimize code for runtime performance and memory efficiency through analysis;BUILD AI;Programming, Software Design;4;5.519122257053291;3.846076489028213
+Recognize recurring software design problems and apply appropriate design patterns to solve them;BUILD AI;Software Design;4;5.885266457680251;4.090590721003135
+Create system architecture documentation;BUILD AI;Software Design;4;6.316614420062696;4.177115987460815
+Design maintainable architectures with high cohesion and low coupling;BUILD AI;Software Design;4;6.747962382445141;4.090590721003135
+Design modular software components with clear separation of concerns;BUILD AI;Software Design;4;7.1141065830721;3.846076489028213
+Design loosely coupled system architectures for maintainability;BUILD AI;Software Design;4;7.358620689655172;3.4799423197492163
