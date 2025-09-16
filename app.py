@@ -18,7 +18,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_skills_dataframe():
-    skills_df = pd.read_csv('data/skills_with_coordinates.csv')
+    skills_df = pd.read_csv('data/skills_with_coordinates.csv', sep = ';')
     skills_df['level'] = 0  # Initialize all to level 0
     return skills_df
 
