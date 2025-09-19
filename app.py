@@ -467,7 +467,60 @@ def create_survey_form(skills_df, selected_purposes=None, selected_domains=None)
     
     st.header("AI Skills Self-Assessment Survey")
     st.write(f"Rating {len(skills_df)} skills based on your current filters:")
-    st.write("**0** = Unknown| **1** = Know about | **2** = Use it | **3** = Adapt it | **4** = Live it")
+    
+    # Add custom CSS for better formatting
+    st.markdown("""
+    <style>
+    /* Style radio button containers */
+    .stRadio > div {
+        display: flex !important;
+        flex-direction: row !important;
+        gap: 15px !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        margin-top: 8px !important;
+        margin-bottom: 20px !important;
+    }
+    
+    /* Make radio buttons more compact */
+    .stRadio > div > label {
+        font-size: 0.85rem !important;
+        margin-bottom: 0 !important;
+        white-space: nowrap !important;
+        font-weight: 400 !important;
+    }
+    
+    /* Style the skill container with skill name inside */
+    .skill-container {
+        margin-bottom: 20px;
+        padding: 15px;
+        border-left: 4px solid #e0e0e0;
+        background-color: #f8f9fa;
+        border-radius: 6px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    /* Style the skill name inside the container */
+    .skill-name {
+        font-weight: 500;
+        color: #333;
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+        line-height: 1.4;
+    }
+    
+    /* Hide the streamlit container borders */
+    .element-container {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Remove the default streamlit radio label */
+    .stRadio > label {
+        display: none !important;
+    }
+    </style>
+    """, unsafe_allow_html=True)
     
     # Initialize session state
     if 'skill_levels' not in st.session_state:
@@ -481,6 +534,10 @@ def create_survey_form(skills_df, selected_purposes=None, selected_domains=None)
         'BUILD AI': '#18A5A7',
         'FRAME AI': '#46ADD5'
     }
+    
+    # Level options
+    level_options = ["Unknown", "Know about", "Use it", "Adapt it", "Live it"]
+    level_values = [0, 1, 2, 3, 4]
     
     skill_ratings = {}
     
@@ -503,16 +560,25 @@ def create_survey_form(skills_df, selected_purposes=None, selected_domains=None)
                         skill_name = skill_row['skill_component']
                         current_value = st.session_state.skill_levels.get(skill_name, 0)
                         
-                        # Use full skill name (no truncation)
-                        rating = st.slider(
-                            label=skill_name,
-                            min_value=0,
-                            max_value=4,
-                            value=current_value,
-                            key=f"skill_slider_{idx}_{purpose.replace(' ', '_')}",
-                            help=f"Domain: {domain}"
+                        # Create a nice container with skill name inside
+                        st.markdown(f'''
+                        <div class="skill-container">
+                            <div class="skill-name">{skill_name}</div>
+                        </div>
+                        ''', unsafe_allow_html=True)
+                        
+                        # Create radio buttons for level selection
+                        selected_level = st.radio(
+                            label="",  # Empty label 
+                            options=level_options,
+                            index=current_value,  # Use current value as index
+                            key=f"skill_radio_{idx}_{purpose.replace(' ', '_')}",
+                            horizontal=True
+                            # Removed help parameter to eliminate question mark
                         )
                         
+                        # Convert selection back to numeric value
+                        rating = level_options.index(selected_level)
                         skill_ratings[skill_name] = rating
                     
                     st.write("")
